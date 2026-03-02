@@ -1,7 +1,7 @@
 [app]
-title = MagPro
-package.name = MagPro
-package.domain = org.magpro
+title = MagPro Resto
+package.name = magproresto
+package.domain = org.magproresto
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json,ttf
 version = 7.1.0
@@ -21,7 +21,7 @@ android.archs = arm64-v8a
 android.add_compilation = True
 android.add_src = False
 android.allow_backup = True
-android.debug_artifact = apk
+android.release_artifact = apk
 android.manifest.application_attributes = android:usesCleartextTraffic="true"
 
 [buildozer]
